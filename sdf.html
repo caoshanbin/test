@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        .myDiv {
+            width:300px;
+            height: 300px;
+            -webkit-animation-name: 'loop';
+            -webkit-animation-duration: 3s;
+            -webkit-animation-iteration-count: infinite;
+        }
+        @-webkit-keyframes "loop"{
+            0% { background: #ccc;}
+            25% { background:#00008B;}
+            50% { background: #0055AA}
+            75% { background: #ddd}
+            100% {background:  #C83939}
+        }
+    </style>
+</head>
+<body>
+<div class="myDiv"></div>
+	
+ <script type="text/javascript">
+ 	var abc=10;
+ 	function abc(){
+ 		var abc=10;
+ 		function(){
+ 			return abc--;
+ 		}
+ 		alert(abc);
+ 		return abc;
+ 	}
+ 	abc();
+ </script>
+</body>
+
+</html>
